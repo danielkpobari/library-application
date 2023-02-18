@@ -1,4 +1,4 @@
-package com.sytycc.MorpheDB.config.security;
+package com.daniel_wizer.libraryapplication.config.security;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.sytycc.MorpheDB.auth;
+package com.daniel_wizer.libraryapplication.auth;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

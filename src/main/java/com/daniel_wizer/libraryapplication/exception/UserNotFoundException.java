@@ -1,4 +1,4 @@
-package com.sytycc.MorpheDB.exception;
+package com.daniel_wizer.libraryapplication.exception;
 
-public class UserNotFoundException{
+public class UserNotFoundException {
 }

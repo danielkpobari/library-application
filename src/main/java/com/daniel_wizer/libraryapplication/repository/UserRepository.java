@@ -1,6 +1,6 @@
-package com.sytycc.MorpheDB.repository;
+package com.daniel_wizer.libraryapplication.repository;
 
-import com.sytycc.MorpheDB.entity.User;
+import com.daniel_wizer.libraryapplication.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

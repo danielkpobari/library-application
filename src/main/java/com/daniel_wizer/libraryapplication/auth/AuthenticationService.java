@@ -1,10 +1,10 @@
-package com.sytycc.MorpheDB.auth;
+package com.daniel_wizer.libraryapplication.auth;
 
 
-import com.sytycc.MorpheDB.config.security.JwtService;
-import com.sytycc.MorpheDB.entity.User;
-import com.sytycc.MorpheDB.enums.Role;
-import com.sytycc.MorpheDB.repository.UserRepository;
+import com.daniel_wizer.libraryapplication.config.security.JwtService;
+import com.daniel_wizer.libraryapplication.enums.Role;
+import com.daniel_wizer.libraryapplication.model.User;
+import com.daniel_wizer.libraryapplication.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

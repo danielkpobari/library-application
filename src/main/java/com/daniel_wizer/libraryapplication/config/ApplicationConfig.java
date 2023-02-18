@@ -1,6 +1,6 @@
-package com.sytycc.MorpheDB.config;
+package com.daniel_wizer.libraryapplication.config;
 
-import com.sytycc.MorpheDB.repository.UserRepository;
+import com.daniel_wizer.libraryapplication.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

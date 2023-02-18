@@ -1,4 +1,4 @@
-package com.sytycc.MorpheDB.config.security;
+package com.daniel_wizer.libraryapplication.config.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

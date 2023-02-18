@@ -1,6 +1,6 @@
-package com.sytycc.MorpheDB.entity;
+package com.daniel_wizer.libraryapplication.model;
 
-import com.sytycc.MorpheDB.enums.Role;
+import com.daniel_wizer.libraryapplication.enums.Role;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -19,7 +19,6 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "user")
 public class User implements UserDetails {
 
   @Id
@@ -32,10 +31,6 @@ public class User implements UserDetails {
 
   @Enumerated(EnumType.STRING)
   private Role role;
-
-  @OneToMany(mappedBy = "user")
-  private List<Project> projects = new ArrayList<>();
-
   @Override
   public Collection<? extends GrantedAuthority> getAuthorities() {
     return List.of(new SimpleGrantedAuthority(role.name()));

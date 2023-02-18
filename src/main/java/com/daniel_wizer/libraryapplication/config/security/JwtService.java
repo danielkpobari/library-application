@@ -1,4 +1,4 @@
-package com.sytycc.MorpheDB.config.security;
+package com.daniel_wizer.libraryapplication.config.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

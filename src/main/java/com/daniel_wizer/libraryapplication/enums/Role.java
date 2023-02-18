@@ -1,4 +1,4 @@
-package com.sytycc.MorpheDB.enums;
+package com.daniel_wizer.libraryapplication.enums;
 
 public enum Role {
 

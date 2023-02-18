@@ -1,4 +1,4 @@
-package com.sytycc.MorpheDB.config.security;
+package com.daniel_wizer.libraryapplication.config.security;
 
 import com.google.gson.Gson;
 import jakarta.servlet.ServletException;
