@@ -1,6 +1,5 @@
 package com.daniel_wizer.libraryapplication.repository;
 
-import com.daniel_wizer.libraryapplication.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
